@@ -1,0 +1,34 @@
+[loot]
+	#Range: -100 ~ 100
+	skill_book_mob_drop_chance_modifier = 0
+	#Range: -100 ~ 100
+	skill_book_chest_drop_chance_modifier = 0
+
+[default_gamerule]
+	hasFallAnimation = true
+	globalStun = true
+	canSwitchCombat = true
+	#Range: 0 ~ 100
+	weightPenalty = 100
+	stiffComboAttacks = true
+	disapleEntityUI = false
+	keepSkills = true
+	doVanillaAttack = true
+
+[custom_weaponry]
+	
+	[custom_weaponry.sample]
+		armor_ingorance = 10.0
+		hit_at_once = 1
+		impact = 0.5
+		#Allowed Values: AXE, FIST, HOE, PICKAXE,SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, DAGGER
+		weapon_type = "SWORD"
+		registry_name = "epicfight:registryname"
+
+	[custom_weaponry.dagger]
+		armor_ingorance = 0.0
+		hit_at_once = 2
+		impact = 1.2
+		#Allowed Values: AXE, FIST, HOE, PICKAXE,SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, DAGGER
+		weapon_type = "DAGGER"
+		registry_name = "graveyard:bone_dagger"
